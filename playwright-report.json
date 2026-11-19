@@ -1,0 +1,16 @@
+{
+  "stats": {
+    "expected": 0,
+    "unexpected": 0,
+    "skipped": 0,
+    "flaky": 0,
+    "duration": 2674
+  },
+  "tests": [
+    {
+      "title": "#header genişliği doğru olmalı",
+      "status": "interrupted",
+      "duration": 2675
+    }
+  ]
+}
