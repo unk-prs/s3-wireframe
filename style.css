@@ -1,8 +1,111 @@
 /* #header, #hero, #gallery, #footer genişlikleri 750px olmalı */
+body {
+    padding-top: 5px;
+    margin: 0;
+    background-color: white;
+}
 
+.main {
+    background-color: white;
+    width: 100%;
+    max-width: 750px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+#menu {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 0;
+}
+.menuButton {
+    padding: 20px;
+    background-color: #777;
+    color: white;
+}
+
+.menuButton:hover {
+    background-color: #000;
+}
+
+#hero {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #777;
+    height: 400px;
+    color: white;
+}
+
+#hero h1 {
+    font-size: 35px;
+}
+
+#code2work {
+    padding: 15px 0px;
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+}
+#gallery {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.galleryCard {
+    background-color: white;
+    margin-top: 50px;
+}
+.galleryText {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+    margin: 20px;
+    font-weight: bold;
+}
+.kare {
+    width: 240px;
+    height: 160px;
+    background-color: #777;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+}
 /* #menu bir <nav> olmalı */
 /* #menu içindeki linklerin arka plan rengi: #777 */
 /* #menu linklerine hover yapıldığında arka plan rengi: #000 */
 /* #menu linklerinin padding değeri: 20px */
+#footer {
+margin-top: 40px;
+background-color: #777;
+height: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
 
+#footerButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    padding: 10px;
+    background-color: #FFFFFF;
+    border: 2px black solid;
+}
 /* #footer butonu metni 'Başa dön' olmalı */
